@@ -9,7 +9,7 @@ We formulate long-context language modeling as a problem in continual learning r
 Under this formulation, we only use a standard architecture – a Transformer with sliding-window attention.
 However, our model continues learning at test time via next-token prediction on the given context, compressing the context it reads into its weights.
 In addition, we improve the model's initialization for learning at test time via meta-learning at training time.
-verall, our method, a form of Test-Time Training (TTT), is End-to-End (E2E) both at test time (via next-token prediction) and training time (via meta-learning), in contrast to previous forms.
+Overall, our method, a form of Test-Time Training (TTT), is End-to-End (E2E) both at test time (via next-token prediction) and training time (via meta-learning), in contrast to previous forms.
 
 
 ## Setup
